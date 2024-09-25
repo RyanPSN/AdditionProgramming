@@ -40,11 +40,12 @@ namespace AdditionProgramming
             Console.WriteLine();
             
             Console.WriteLine($"What is: {GetNumbers.Num_1} + {GetNumbers.Num_2} ");
+            var result = n.ToString();
 
             var answer = int.Parse(Console.ReadLine());
             if (answer == n.Calc)
             {
-                Console.WriteLine("Correct");
+                Console.WriteLine($"Correct: {result}");
             }
 
             Console.ReadLine();
