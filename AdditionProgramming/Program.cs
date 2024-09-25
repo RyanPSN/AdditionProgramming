@@ -32,8 +32,8 @@ namespace AdditionProgramming
 
             GetNumbers n = new GetNumbers();
 
-            GetNumbers.Num_1 = r.Next(0, 10);
-            GetNumbers.Num_2 = r.Next(1, 10);
+            GetNumbers.Num_1 += r.Next(0, 10);
+            GetNumbers.Num_2 += r.Next(1, 10);
 
             Console.WriteLine($"Number 1: {GetNumbers.Num_1}");
             Console.WriteLine($"Number 2: {GetNumbers.Num_2}");
